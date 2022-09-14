@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Popup</title>
+        <link rel="stylesheet" href="Prompt.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap">
+    </head>
+    <body>
+        <div class="style">
+            <script>
+                name = window.prompt("Enter a name");
+                city = window.prompt("Enter a city");
+                weekday = window.prompt("Enter a day of the week");
+                number = window.prompt("Enter a number");
+
+                let msg = "<h2 style = 'color:white;'>" + name + " went out on a " 
+                    + weekday+ " to get some ice cream in " + city + " they ordered " + number + 
+                    " different ice cream on that day!" + "</h2>";
+
+                document.write(msg)
+            </script>
+        </div>
+    </body>
+</html>

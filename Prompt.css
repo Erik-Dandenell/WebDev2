@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 238, 83);
+    text-align: center;
+}
+
+.style {
+    margin: auto;
+    width: 40%;
+    margin-top: 20%;
+    background-color: rgb(255, 30, 184);
+    border-radius: 10%;
+    transition: 6ms;
+
+}
